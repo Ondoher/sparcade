@@ -1,0 +1,132 @@
+
+#vdd-page {
+	background-image: url("/sparcade/assets/images/felt.jpg");
+	padding: 10px;
+	width: 100%;
+	min-height: 300px;
+}
+
+.show-new-game {display: none}
+.new-game .show-new-game {display: block}
+
+.show-playing {display: none}
+.playing .show-playing {display: block}
+
+.show-roll-for-first {display: none}
+.roll-for-first .show-roll-for-first {display: block}
+
+#vdd-table {
+	position: relative;
+	width: 600px;
+	height: 600px;
+}
+
+.player-name {
+	font-size: 20px;
+	font-family: Arial;
+	opacity: 0.75;
+	color: #fff200;
+}
+
+#vdd-players {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-webkit-transform: rotate(0deg);
+}
+
+#vdd-table-center {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left:200px;
+	top:200px;
+}
+
+#vdd-table-roll {
+	margin: 50px 5px 5px 50px;
+}
+
+.stationary
+{
+	-webkit-transition: -webkit-transform 0s ease-in !important;
+}
+
+#vdd-message {
+	font-size: 32px;
+	font-family: Arial;
+	opacity: 0.75;
+	color: #fff200;
+}
+
+.vdd-player-name {display: block}
+
+.seat {
+	width: 198px;
+	height: 198px;
+	border: 2px solid RGBA(255,242,0,128);
+}
+
+.player-1-seat {
+	-webkit-transform: rotate(0deg);
+	position: absolute;
+	top: 400px;
+	left : 200px;
+}
+
+.player-2-seat {
+	-webkit-transform: rotate(90deg);
+	position: absolute;
+	top: 200px;
+	left : 400px;
+}
+
+.player-3-seat {
+	-webkit-transform: rotate(180deg);
+	position: absolute;
+	top: 0px;
+	left : 200px;
+}
+
+.player-4-seat {
+	-webkit-transform: rotate(270deg);
+	position: absolute;
+	top: 200px;
+	left : 0px;
+}
+
+
+.position-1 #vdd-players{
+	-webkit-transform: rotate(0deg);
+}
+
+.position-2  #vdd-players{
+	-webkit-transform: rotate(90deg);
+}
+
+.position-3  #vdd-players{
+	-webkit-transform: rotate(180deg);
+}
+
+.position-4  #vdd-players{
+	-webkit-transform: rotate(270deg);
+}
+
+.position-5  #vdd-players{
+	-webkit-transform: rotate(360deg);
+}
+
+.vddie {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
+.vddie-devil {background-image: url("/sparcade/assets/images/vddice/devil.png");}
+.vddie-cross {background-image: url("/sparcade/assets/images/vddice/cross.png");}
+.vddie-bones {background-image: url("/sparcade/assets/images/vddice/bones.png");}
+
+
+
+

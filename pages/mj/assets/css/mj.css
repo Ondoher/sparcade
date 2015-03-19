@@ -1,0 +1,9 @@
+.mj-table {
+	background-image: url("/sparcade/assets/images/bamboo.jpg");
+	padding: 10px;
+}
+
+
+#board-canvas {position: relative; width: 940px; height: 760px; overflow: hidden}
+
+

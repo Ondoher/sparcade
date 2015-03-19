@@ -1,0 +1,48 @@
+<div id="pd-table" class="clearfix">
+	<h2>Poker Dice</h2>
+	<a href="javascript:void()" id="pd-new-game" class="button small-button">New</a>
+	<div id="table" class="clearfix">
+		<div class="dice-field">
+			<div id="dice-rolled" class="clearfix">
+				<div id="dice-rolled-slot-1" class="dice-slot"></div>
+				<div id="dice-rolled-slot-2" class="dice-slot"></div>
+				<div id="dice-rolled-slot-3" class="dice-slot"></div>
+				<div id="dice-rolled-slot-4" class="dice-slot"></div>
+				<div id="dice-rolled-slot-5" class="dice-slot"></div>
+			</div>
+			<div id="dice-held" class="clearfix">
+				<div id="dice-held-slot-1" class="dice-slot dice-held-slot"></div>
+				<div id="dice-held-slot-2" class="dice-slot dice-held-slot"></div>
+				<div id="dice-held-slot-3" class="dice-slot dice-held-slot"></div>
+				<div id="dice-held-slot-4" class="dice-slot dice-held-slot"></div>
+				<div id="dice-held-slot-5" class="dice-slot dice-held-slot"></div>
+			</div>
+			<a href="javascript:void(0)" id="pd-roll" class="button large-button">Roll</a>
+		</div>
+		<div class="score-card">
+			<table>
+				<tr><th>Hand</th><th>How to score</th><th>Value</th><th></th></tr>
+				<tr id="line-0"><td class="hand">Aces</td><td class="how-to-score">Total of all aces<br/>double for 5</td><td id="value-0" class="value"></td><td><a id="score-0" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-1"><td class="hand">Twos</td><td class="how-to-score">Total of all twos<br/>double for 5</td><td id="value-1" class="value"></td><td><a id="score-1" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-2"><td class="hand">Threes</td><td class="how-to-score">Total of all threes<br/>double for 5</td><td id="value-2" class="value"></td><td><a id="score-2" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-3"><td class="hand">Fours</td><td class="how-to-score">Total of all fours<br/>double for 5</td><td id="value-3" class="value"></td><td><a id="score-3" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-4"><td class="hand">Fives</td><td class="how-to-score">Total of all fives<br/>double for 5</td><td id="value-4" class="value"></td><td><a id="score-4" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-5"><td class="hand">Sixes</td><td class="how-to-score">Total of all sixes<br/>double for 5</td><td id="value-5" class="value"></td><td><a id="score-5" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-6"><td class="hand">Three of a Hind</td><td class="how-to-score">Total of all dice</td><td id="value-6" class="value"></td><td><a id="score-6" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-7"><td class="hand">Four of a Kind</td><td class="how-to-score">Total of all dice</td><td id="value-7" class="value"></td><td><a id="score-7" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-8"><td class="hand">Full House</td><td class="how-to-score">25</td><td id="value-8" class="value"></td><td><a id="score-8" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-9"><td class="hand">Low Straight (1-5)</td><td class="how-to-score">40</td><td id="value-9" class="value"></td><td><a id="score-9" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-10"><td class="hand">Hight Straight (1-5)</td><td class="how-to-score">40</td><td id="value-10" class="value"></td><td><a id="score-10" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-11"><td class="hand">Free</td><td class="how-to-score">Total of all dice</td><td id="value-11" class="value"></td><td><a id="score-11" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-12"><td class="hand">Five of a Kind</td><td class="how-to-score">50</td><td id="value-12" class="value"></td><td><a id="score-12" class="button slim-button score-button">Score</a></td></tr>
+				<tr id="line-total"><td class="hand final-score">Total</td><td class="how-to-score"></td><td id="value-total" class="value"></td><td></td></tr>
+			</table>
+		</div>
+	</div>
+<div id="die1" class="template die die1"></div>
+<div id="die2" class="template die die2"></div>
+<div id="die3" class="template die die3"></div>
+<div id="die4" class="template die die4"></div>
+<div id="die5" class="template die die5"></div>
+<div id="die6" class="template die die6"></div>
+

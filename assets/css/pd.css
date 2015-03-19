@@ -1,0 +1,83 @@
+.die {
+	width: 50px;
+	height: 50px;
+}
+
+.die1 {background-image: url("/sparcade/assets/images/dice/medium/1.png");}
+.die2 {background-image: url("/sparcade/assets/images/dice/medium/2.png");}
+.die3 {background-image: url("/sparcade/assets/images/dice/medium/3.png");}
+.die4 {background-image: url("/sparcade/assets/images/dice/medium/4.png");}
+.die5 {background-image: url("/sparcade/assets/images/dice/medium/5.png");}
+.die6 {background-image: url("/sparcade/assets/images/dice/medium/6.png");}
+
+.dice-slot {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 4px;
+	padding: 2px;
+}
+
+#pd-table {
+	background-image: url("/sparcade/assets/images/felt.jpg");
+	padding: 10px;
+}
+
+#pd-table h2 {
+	font-size: 32px;
+	font-family: Arial;
+	opacity: 0.75;
+	color: #fff200;
+}
+
+.dice-held-slot {
+	border: 3px solid rgba(255, 242, 0, 0.72);
+	border-radius: 3px;
+	margin: 1px;
+}
+
+.dice-field {
+	float: left;
+}
+
+.score-card {
+	float: left;
+	background-color: white;
+	margin-left: 30px;
+}
+table {
+	margin: 0px;
+	padding:0px;
+	border: 0px none;
+	border-collapse: collapse
+}
+
+th {
+	padding: 5px;
+}
+
+td {
+	padding: 5px;
+}
+
+.how-to-score {
+	font-size: 10px;
+}
+
+.hand {
+	background: #cccccc;
+	margin: 0px;
+	font-weight: bold;
+	width: 130px;
+	font-size: 14px;
+}
+
+.value {
+	width: 100px;
+	text-align: right;
+}
+
+.final-score .score-button {
+	display: none;
+}
+
